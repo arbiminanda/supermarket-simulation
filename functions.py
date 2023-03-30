@@ -14,7 +14,7 @@ def handleOrder(arr_items):
         print("Choose items that you want add to cart: (input number of desired item)")
         printItems(arr_items)
         chosen_item = input("Input your option here: ")
-        if int(chosen_item) not in range(len(arr_items)):
+        if int(chosen_item) not in range(1,len(arr_items)+1):
             print("Sorry, Error input")
             sys.exit()
         amount_item = input("How many do you want to buy that item? ")
