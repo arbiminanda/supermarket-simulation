@@ -26,5 +26,4 @@ while not finish_shop:
         print("Thanks for coming, have a nice day ^_^")
         finish_shop = True
     else:
-        print("Sorry, Error input")
-        break
+        print("Sorry, please give the correct input")
